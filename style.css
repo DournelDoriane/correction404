@@ -1,0 +1,87 @@
+html, body {
+    margin:0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.header{
+    background-color: white;
+    height: 77px;
+    overflow: hidden;
+}
+
+.header .logo{
+    overflow: hidden;
+    width: 150px;
+    float: left;
+    margin-top: 20px;
+    margin-left:  5px;
+}
+
+/* Menu */
+
+.header .menu {
+    float: right;
+}
+
+.header .menu ul {
+    margin-left: 0;
+    -webkit-padding-start: 0;
+    margin-top: 20px;
+}
+
+.header .menu li {
+    list-style-type: none;
+    display: inline;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.header .menu li a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-decoration: none;
+    color:black;
+}
+
+.header .menu li:last-child a {
+    background-color: black;
+    color: white;
+}
+
+.header .menu li a:hover {
+    background-color: #ccc;
+}
+
+/* contenu */
+
+.content {
+    text-align: center;
+    background-color: #FFD800;
+    padding-top: 40px;
+}
+
+.content h1 {
+    color:#FFFFFF;
+}
+
+.footer{
+    background-color: #333;
+    overflow: hidden;
+}
+
+.footer a{
+    color:white;
+    text-decoration: none;
+}
+
+.footer li{
+    list-style-type: none;
+    display: inline;
+}
+
+.colonne-4{
+    width:25%;
+    float: left;
+}
