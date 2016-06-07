@@ -13,9 +13,10 @@ html, body {
     overflow: hidden;
     width: 150px;
     float: left;
-    margin-top: 20px;
-    margin-left:  5px;
+    margin-top: 30px;
+    margin-left: 5px;
 }
+
 
 /* Menu */
 
@@ -26,7 +27,7 @@ html, body {
 .header .menu ul {
     margin-left: 0;
     -webkit-padding-start: 0;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .header .menu li {
@@ -51,8 +52,10 @@ html, body {
 }
 
 .header .menu li a:hover {
-    background-color: #ccc;
+    background-color: #CCCCCC;
 }
+
+
 
 /* contenu */
 
@@ -60,28 +63,67 @@ html, body {
     text-align: center;
     background-color: #FFD800;
     padding-top: 40px;
+    padding-bottom:40px;
 }
 
 .content h1 {
     color:#FFFFFF;
 }
 
-.footer{
-    background-color: #333;
-    overflow: hidden;
+.content a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 85%;
+    letter-spacing: 1px;
 }
 
-.footer a{
-    color:white;
+.content a img {
+    width: 40px;
+	height: 40px;
+	vertical-align:-14px;
+}
+
+
+
+/* Footer */
+
+.footer {
+    color:#FFFFFF;
+    background-color: #333;
+    overflow: hidden;
+    padding-top:30px;
+    padding-bottom:30px;
+    padding-left:25px;
+    padding-right:25px;
+}
+
+.footer a {
+    color:#FFFFFF;
     text-decoration: none;
 }
 
-.footer li{
+.footer li {
     list-style-type: none;
+}
+
+.colonne-4 {
+    width:25%;
+    float:left;
+}
+
+.logo-footer {
+    margin-top:50px;
+}
+
+.footer .social {
+    margin-left:0;
+    -webkit-padding-start:0;
+}
+
+.footer .social li {
     display: inline;
 }
 
-.colonne-4{
-    width:25%;
-    float: left;
+.footer .social li img {
+    width:40px;
 }
